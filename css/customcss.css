@@ -1,0 +1,91 @@
+body {
+    background-color: rgb(20, 109, 54);
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.navbar {
+    background-color: rgb(70, 130, 90);
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.sidebar {
+    background-color: rgb(102, 150, 98);
+    color: black;
+    width: 75px; /* Width of the sidebar */
+    height: 100%; /* Full height */
+    position: fixed; /* Keep it fixed on the left */
+    top: 0; /* Align at the top */
+    left: 0; /* Start from the left edge */
+    padding: 15px; /* Add some inner spacing */
+}
+
+.sidebar h {
+    font-size: 1.2rem;
+    color: white;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar ul li {
+    margin: 15px 0;
+}
+
+.sidebar ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.sidebar ul li a:hover {
+    text-decoration: underline;
+    color: blue;
+}
+
+.box-model {
+    padding: 15px;
+    background-color: rgb(97, 175, 103);
+    border: 5px solid rgb(20, 48, 2);
+    margin-left: 100px; /* Space to clear the sidebar */
+    margin-top: 20px;
+}
+
+h1 {
+    color: rgb(247, 250, 249) !important;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: italic;
+}
+
+
+.box-model2{
+    margin-left: 115px;
+    margin-right: 15px;
+    margin-top: 15px;
+    padding: 20px;
+    background-color: rgb(163, 207, 207);
+    color: black ;
+    text-decoration: solid;
+
+}
+
+.box-model3{
+    margin-left: 150px;
+    margin-right: 15px;
+
+}
+
+.box-model4{
+    margin-left: 115px;
+    margin-right: 1000px;
+    background-color: antiquewhite;
+
+}
+
+
+.tableauPlaceholder {
+    margin-left: 115px;
+
+}
